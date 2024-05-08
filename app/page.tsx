@@ -1,3 +1,6 @@
+import { useRouter } from "next/router";
+
 export default function Home() {
-  return <main></main>;
+  const router = useRouter();
+  router.push("/auth/login");
 }
