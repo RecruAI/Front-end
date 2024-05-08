@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "../components/Input";
+import Input from "../../components/Input";
 import Image from "next/image";
-import Button from "../components/Button";
+import Button from "../../components/Button";
 export default function Page() {
   return (
     <div className="flex place-content-center items-center h-screen">
