@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "../components/Input";
 import Image from "next/image";
+import Button from "../components/Button";
 export default function Page() {
   return (
     <div className="flex place-content-center items-center h-screen">
@@ -10,35 +11,26 @@ export default function Page() {
             Welcome back!
           </div>
           <div className="mx-auto">
-            <label className="block ml-1 text-xs font-bold text-gray-600 ">
-              EMAIL OR LOGIN
-            </label>
-            <input
-              type="text"
-              id="login"
-              className=" rounded-md border-2 py-2 px-1.5 w-96 mb-12"
-            />
-            <label className="block ml-1 text-xs font-bold text-gray-600 ">
-              PASSWORD
-            </label>
-            <input
-              type="password"
-              id="password"
-              className="rounded-md border-2 py-2 px-1.5 w-96  "
-            />
-            <div className="ml-1 mt-1 text-xs font-bold text-blue-600">
-              Forgot your password?
+            <Input label="EMAIL OR LOGIN" id="login" type="text"></Input>
+            <Input label="PASSWORD" id="password" type="password"></Input>
+            <div className="flex items-center mt-1">
+              <input
+                type="checkbox"
+                className="w-4 h-4 border rounded-lg"
+              ></input>
+              <label className="mt-0.5 block ml-1 text-xs font-bold text-gray-600">
+                Remember password
+              </label>
             </div>
+            <Button title="Log in" id="button"></Button>
 
-            <button className="mx-auto mt-24 w-96 py-1.5 px-2 rounded-md font-bold text-white bg-blue-500">
-              Log in
-            </button>
-            <div className="flex">
+            <div className="flex justify-between">
               <div className="ml-1 mt-1 text-xs font-bold text-black">
-                Need an account?
+                Need an account? <span className="text-blue-600">Sign up</span>
               </div>
-              <div className=" ml-1 mt-1 text-xs font-bold text-blue-600 ">
-                Sign up
+
+              <div className="ml-1 mt-1  text-xs font-bold text-blue-600">
+                Forgot your password?
               </div>
             </div>
           </div>
