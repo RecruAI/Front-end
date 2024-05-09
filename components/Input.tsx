@@ -1,14 +1,14 @@
 interface InputProps {
-	label: string;
-	id: string;
-	type: "text" | "password" | "email" | "number" | "tel" | "url";
+	label: string
+	id: string
+	type: 'text' | 'password' | 'email' | 'number' | 'tel' | 'url'
 }
 
 export default function Input({ label, id, type }: InputProps) {
 	return (
 		<>
-			<label className="block ml-1 text-xs font-bold text-gray-600 mt-4">{label}</label>
-			<input type={type} id={id} className="outline-none rounded-md border-2 border-black py-2 px-3 w-96" />
+			<label className="ml-1 mt-4 block text-xs font-bold text-gray-600">{label}</label>
+			<input type={type} id={id} className="w-96 rounded-md border-2 border-black px-3 py-2 outline-none" />
 		</>
-	);
+	)
 }

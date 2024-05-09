@@ -3,10 +3,10 @@ import Input from "@/components/Input";
 
 export default function Page() {
 	return (
-		<div className="flex place-content-center items-center h-screen">
-			<div className="justify-between flex">
+		<div className="flex h-screen place-content-center items-center">
+			<div className="flex justify-between">
 				<div className="px-28 py-24">
-					<div className="font-bold text-4xl text-center mb-12">Create an account</div>
+					<div className="mb-12 text-center text-4xl font-bold">Create an account</div>
 					<div className="mx-auto  ">
 						<Input label="FIRST NAME" id="name" type="text"></Input>
 						<Input label="LAST NAME" id="surname" type="text"></Input>
@@ -15,12 +15,12 @@ export default function Page() {
 						<Input label="PASSWORD" id="password" type="password"></Input>
 						<Input label="REPEAT PASSWORD" id="rep_password" type="password"></Input>
 
-						<div className="flex items-center -mt-12">
+						<div className="-mt-12 flex items-center">
 							<Button title="Continue" id="button"></Button>
 						</div>
 						<div className="flex justify-between">
 							<div className="ml-1 mt-1 text-xs font-bold text-black">
-								Already have an account?{" "}
+								Already have an account?{' '}
 								<a href="login" className="text-blue-600">
 									Log in
 								</a>
@@ -29,12 +29,12 @@ export default function Page() {
 					</div>
 				</div>
 				<div className="px-28 ">
-					<div className="bg-black w-1 h-full mx-auto "></div>
+					<div className="mx-auto h-full w-1 bg-black "></div>
 				</div>
 				<div className="px-24 ">
 					<div className="mt-24">
 						<div>
-							<svg width="192" height="190" viewBox="0 0 192 190" fill="none" xmlns="http://www.w3.org/2000/svg" className="-mb-24 ml-96 -mr-24 ">
+							<svg width="192" height="190" viewBox="0 0 192 190" fill="none" xmlns="http://www.w3.org/2000/svg" className="-mb-24 -mr-24 ml-96 ">
 								<path
 									d="M181.185 189.256H10.291C7.56266 189.253 4.94689 188.168 3.01762 186.239C1.08835 184.31 0.00313637 181.694 0 178.966V56.1053C0.00308366 53.3771 1.0883 50.7615 3.01758 48.8324C4.94686 46.9032 7.56264 45.8181 10.291 45.815H181.185C183.914 45.8181 186.529 46.9033 188.459 48.8324C190.388 50.7616 191.473 53.3771 191.476 56.1053V178.966C191.473 181.694 190.388 184.31 188.458 186.239C186.529 188.168 183.914 189.253 181.185 189.256Z"
 									fill="#E6E6E6"
@@ -81,8 +81,8 @@ export default function Page() {
 								/>
 							</svg>
 
-							<div className="py-24 font-bold text-4xl text-center mt-24">Lorem ipsum, sit amet dolores.</div>
-							<svg width="192" height="190" viewBox="0 0 192 190" fill="none" xmlns="http://www.w3.org/2000/svg" className="-mt-8 -ml-24">
+							<div className="mt-24 py-24 text-center text-4xl font-bold">Lorem ipsum, sit amet dolores.</div>
+							<svg width="192" height="190" viewBox="0 0 192 190" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-24 -mt-8">
 								<path
 									d="M181.185 189.058H10.291C7.56263 189.055 4.94685 187.97 3.01757 186.041C1.0883 184.112 0.00307438 181.496 -7.62939e-06 178.768V55.9076C0.00307273 53.1794 1.0883 50.5638 3.01757 48.6346C4.94685 46.7055 7.56263 45.6204 10.291 45.6173H181.185C183.913 45.6204 186.529 46.7055 188.458 48.6346C190.388 50.5638 191.473 53.1794 191.476 55.9076V178.768C191.473 181.496 190.388 184.112 188.458 186.041C186.529 187.97 183.913 189.055 181.185 189.058Z"
 									fill="#E6E6E6"
@@ -137,5 +137,5 @@ export default function Page() {
 				</div>
 			</div>
 		</div>
-	);
+	)
 }
