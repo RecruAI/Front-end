@@ -20,7 +20,7 @@ export default function Page() {
 						</div>
 						<div className="flex justify-between">
 							<div className="ml-1 mt-1 text-xs font-bold text-black">
-								Already have an account?
+								Already have an account?{" "}
 								<a href="login" className="text-blue-600">
 									Log in
 								</a>
