@@ -9,7 +9,7 @@ interface InputProps {
 export default function Input({ label, id, type }: InputProps) {
   return (
     <>
-      <label className="block ml-1 text-xs font-bold text-gray-600 mt-4">
+      <label className="block ml-1 text-xs font-bold text-gray mt-4">
         {label}
       </label>
       <input

@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        blue: "#4D6CFA",
+        gray: "#36393F",
+        white: "#FFFFFF",
+        red: "#F04242",
+        green: "#42B380",
+      },
+      fontFamily: {
+        prompt: ["Prompt", "sans-serif"],
+        mitr: ["Mitr", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

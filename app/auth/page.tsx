@@ -7,7 +7,7 @@ export default function Page() {
     <div className="flex place-content-center items-center h-screen">
       <div className="grid grid-cols-5 gap-28">
         <div className="grid col-span-2 p-6">
-          <div className="font-bold text-4xl text-center mb-24">
+          <div className="font-bold text-4xl text-center text-gray mb-24">
             Welcome back!
           </div>
           <div className="mx-auto">
@@ -18,18 +18,18 @@ export default function Page() {
                 type="checkbox"
                 className="w-4 h-4 border rounded-lg"
               ></input>
-              <label className="mt-0.5 block ml-1 text-xs font-bold text-gray-600">
+              <label className="mt-0.5 block ml-1 text-xs font-bold text-gray">
                 Remember password
               </label>
             </div>
             <Button title="Log in" id="button"></Button>
 
             <div className="flex justify-between">
-              <div className="ml-1 mt-1 text-xs font-bold text-black">
-                Need an account? <span className="text-blue-600">Sign up</span>
+              <div className="ml-1 mt-1 text-xs font-bold text-gray">
+                Need an account? <span className="text-blue">Sign up</span>
               </div>
 
-              <div className="ml-1 mt-1  text-xs font-bold text-blue-600">
+              <div className="ml-1 mt-1  text-xs font-bold text-blue">
                 Forgot your password?
               </div>
             </div>
@@ -41,7 +41,7 @@ export default function Page() {
         <div className="grid col-span-2 p-6 ">
           <div className="">
             <div>
-              <div className="font-bold text-4xl text-center">
+              <div className="font-bold text-4xl text-gray text-center">
                 Lorem ipsum, sit amet dolores.
               </div>
             </div>

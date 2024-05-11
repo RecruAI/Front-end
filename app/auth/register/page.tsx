@@ -7,7 +7,7 @@ export default function Page() {
     <div className="flex place-content-center items-center h-screen">
       <div className="justify-between flex">
         <div className="px-28 py-24">
-          <div className="font-bold text-4xl text-center mb-12">
+          <div className="font-bold text-4xl text-center text-gray mb-12">
             Create an account
           </div>
           <div className="mx-auto  ">
@@ -25,9 +25,9 @@ export default function Page() {
               <Button title="Continue" id="button"></Button>
             </div>
             <div className="flex justify-between">
-              <div className="ml-1 mt-1 text-xs font-bold text-black">
+              <div className="ml-1 mt-1 text-xs font-bold text-gray">
                 Already have an account?{" "}
-                <a href="login" className="text-blue-600">
+                <a href="login" className="text-blue">
                   Log in
                 </a>
               </div>
@@ -94,7 +94,7 @@ export default function Page() {
                 />
               </svg>
 
-              <div className="py-24 font-bold text-4xl text-center mt-24">
+              <div className="py-24 font-bold text-4xl text-center text-gray mt-24">
                 Lorem ipsum, sit amet dolores.
               </div>
               <svg
