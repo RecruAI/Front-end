@@ -1,12 +1,11 @@
-import React from "react";
-
 interface InputProps {
-  label: string;
-  id: string;
-  type: "text" | "password" | "email" | "number" | "tel" | "url";
+	label: string
+	id: string
+	type: 'text' | 'password' | 'email' | 'number' | 'tel' | 'url'
 }
 
 export default function Input({ label, id, type }: InputProps) {
+
   return (
     <>
       <label className="block ml-1 text-xs font-bold text-gray mt-4">
@@ -19,4 +18,5 @@ export default function Input({ label, id, type }: InputProps) {
       />
     </>
   );
+
 }
