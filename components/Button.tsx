@@ -6,11 +6,9 @@ interface ButtonProps {
 export default function Button({ title, id }: ButtonProps) {
 
   return (
-    <>
-      <button className="mx-auto mt-24 w-96 py-1.5 px-2 rounded-md font-bold text-white bg-blue">
-        {title}
-      </button>
-    </>
-  );
+		<>
+			<button className="bg-mainColor mx-auto mt-24 w-96 rounded-md px-2 py-1.5 font-bold text-white focus:outline-blue">{title}</button>
+		</>
+  )
 
 }
